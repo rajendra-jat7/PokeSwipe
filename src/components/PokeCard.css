@@ -35,7 +35,7 @@
     padding: 10px 20px;
     font-size: 1rem;
     /* background-color: transparent; Set the default background color to transparent */
-    border: 1px solid #ffcb05; /* Set the default border color */
+    border: 1px solid white; /* Set the default border color */
     border-radius: 5px;
     cursor: pointer;
     margin: 5px;

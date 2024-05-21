@@ -1,5 +1,5 @@
 import React from 'react';
-import './PokeApiHeading.css'; // Import CSS specific to PokeApiHeading
+import './PokeApiHeading.css';
 
 const PokeApiHeading = () => {
   const title = 'PokéApi';

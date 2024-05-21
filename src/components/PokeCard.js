@@ -34,8 +34,8 @@ const PokeCard = ({ onLike, onDislike, isDarkMode }) => {
           <p>{pokemon.abilities.map(ability => ability.ability.name).join(', ')}</p>
           <p>{pokemon.types.map(type => type.type.name).join(', ')}</p>
           <div className="buttons">
-            <button onClick={handleLike} style={{ backgroundColor: isDarkMode ? 'green' : '#ffcb05' }}>Like</button>
-            <button onClick={handleDislike} style={{ backgroundColor: isDarkMode ? 'red' : '#ffcb05' }}>Dislike</button>
+            <button onClick={handleLike} style={{ backgroundColor: isDarkMode ? 'green' : 'green' }}>Like</button>
+            <button onClick={handleDislike} style={{ backgroundColor: isDarkMode ? 'red' : 'red' }}>Dislike</button>
           </div>
         </>
       )}
