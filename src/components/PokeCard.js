@@ -31,8 +31,8 @@ const PokeCard = ({ onLike, onDislike, isDarkMode }) => {
         <>
           <img src={pokemon.sprites.other['official-artwork'].front_default} alt={pokemon.name} />
           <h2>{pokemon.name}</h2>
-          <p>Abilities: {pokemon.abilities.map(ability => ability.ability.name).join(', ')}</p>
-          <p>Types: {pokemon.types.map(type => type.type.name).join(', ')}</p>
+          <p>{pokemon.abilities.map(ability => ability.ability.name).join(', ')}</p>
+          <p>{pokemon.types.map(type => type.type.name).join(', ')}</p>
           <div className="buttons">
             <button onClick={handleLike} style={{ backgroundColor: isDarkMode ? 'green' : '#ffcb05' }}>Like</button>
             <button onClick={handleDislike} style={{ backgroundColor: isDarkMode ? 'red' : '#ffcb05' }}>Dislike</button>
