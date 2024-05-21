@@ -1,0 +1,15 @@
+/* PokeApiHeading styles */
+.pokeapi-heading {
+    margin: 20px 0;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pokeapi-char {
+    display: inline-block;
+    margin: 0 2px;
+    padding: 2px;
+    color: #ffcb05;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Apply text shadow */
+  }

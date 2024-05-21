@@ -1,0 +1,43 @@
+.liked-pokemon-page {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .liked-pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .liked-pokemon-card {
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgray;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .liked-pokemon-card img {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 15px;
+  }
+  
+  .liked-pokemon-card h4 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .dark-mode .liked-pokemon-card {
+    background-color: #2e2e2e;
+    color: white;
+    border-color: white; /* Adjust border color for dark mode */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Adjust box shadow for dark mode */
+  }
+
+  .dark-mode .liked-pokemon-card h4{
+    color: white;
+  }
+  

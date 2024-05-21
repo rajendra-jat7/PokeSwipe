@@ -1,0 +1,22 @@
+.welcome-screen {
+    margin-top: 50px;
+  }
+  
+  .welcome-screen h1 {
+    font-size: 2.5rem;
+    color: black;
+  }
+  
+  .welcome-screen p {
+    font-size: 1.2rem;
+  }
+  
+  .welcome-screen button {
+    padding: 10px 40px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #ffcb05;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease; */
+  }
+  
